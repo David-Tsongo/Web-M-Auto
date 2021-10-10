@@ -23,11 +23,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">M Auto | David Tsongo</a>
+            <a class="navbar-brand" href="#">Web App M-Auto || David Tsongo</a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
