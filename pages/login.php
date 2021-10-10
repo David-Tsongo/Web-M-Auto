@@ -10,13 +10,13 @@
             <p>Connectez-vous pour pouvoir continuer avec vos achats</p>
         </div>
         <div class="form-group">
-            <label for="phone">Nom d'utilisateur ou Adresse mail</label>
-            <input type="text" name="telephone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Enter phone number ex: +243 90...." required>
-            <small id="emailHelp" class="form-text text-muted">Soyew sur! Vos informations ne seront pas partagés</small>
+            <label for="phone">Nom d'utilisateur</label>
+            <input type="text" name="telephone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Numéro de telephone ou Adresse Mail" required>
+            <small id="emailHelp" class="form-text text-muted">Soyez sur! Vos informations ne seront pas partagés !</small>
         </div>
         <div class="form-group">
             <label for="pwd">Mot de passe</label>
-            <input type="password" name="password" class="form-control" id="pwd" placeholder="Password" required>
+            <input type="password" name="password" class="form-control" id="pwd" placeholder="Votre mot de passe" required>
         </div>
         <div class="form-check my-2 output-message">
         </div>

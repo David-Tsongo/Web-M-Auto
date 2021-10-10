@@ -76,16 +76,16 @@
                         }
                     } else {
                         $('.products-content').html(`<div class="col-lg-12 d-flex justify-content-center"><h1><span class="fa fa-warning text-danger"></span></h1></div>`);
-                        alert("une erreur inconnue vient de se produire")
+                        alert("Nom d'utilisateur ou mot de passe incorrect !")
                     }
                 })
                 .catch(err => {
                     console.log(err)
-                    alert("une erreur inconnue vient de se produire")
+                    alert("Nom d'utilisateur ou mot de passe incorrect !")
 
                 })
         } catch (error) {
-            alert("une erreur inconnue vient de se produire")
+            alert("Nom d'utilisateur ou mot de passe incorrect !")
         }
     }
     const sendform = async(isregister) => {
