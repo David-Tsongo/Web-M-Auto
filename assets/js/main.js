@@ -108,20 +108,20 @@
                             break;
                         case 400:
                             $(".loader-box").addClass("d-none");
-                            $(".output-message").removeClass("d-none").html("<b class='text-danger'>Mot de passe ou numero entrer est incorrect !</b>")
+                            $(".output-message").removeClass("d-none").html("<b class='text-danger'>Nom d'utilisateur ou mot de passe incorrect !</b>")
                         default:
                             $(".loader-box").addClass("d-none");
-                            $(".output-message").removeClass("d-none").html("<b class='text-danger'>Une erreur inattendue viens de se produire !</b>")
+                            $(".output-message").removeClass("d-none").html("<b class='text-danger'>Nom d'utilisateur ou mot de passe incorrect !</b>")
                             break;
                     }
                 } else {
                     $(".loader-box").addClass("d-none");
-                    $(".output-message").removeClass("d-none").html("<b class='text-danger'>Une erreur viens de se produire !</b>")
+                    $(".output-message").removeClass("d-none").html("<b class='text-danger'>Nom d'utilisateur ou mot de passe incorrect !</b>")
                 }
             })
             .catch(err => {
                 $(".loader-box").addClass("d-none");
-                $(".output-message").removeClass("d-none").html("<b class='text-danger'>Une erreur viens de se produire !</b>")
+                $(".output-message").removeClass("d-none").html("<b class='text-danger'>Nom d'utilisateur ou mot de passe incorrect !</b>")
                 console.log(err)
             })
     }
